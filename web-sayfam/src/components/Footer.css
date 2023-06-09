@@ -1,0 +1,91 @@
+.footer {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background: #f9f9f9;
+}
+
+.footer-head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+
+  color: #1f2937;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.emailcss {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  text-decoration: none;
+  color: #af0c48;
+}
+
+.content-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 1.25rem;
+}
+
+.content-2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  letter-spacing: 0.01em;
+
+  color: #0a0a14;
+}
+.content-3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  letter-spacing: 0.01em;
+
+  color: #00ab6b;
+}
+
+.content-4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  letter-spacing: 0.01em;
+
+  color: #0077b5;
+}

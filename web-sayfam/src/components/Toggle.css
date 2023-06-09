@@ -1,0 +1,170 @@
+.dark .mode-switch {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark .text {
+  color: #fff;
+}
+
+.dark {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.dark .heroLeft h2,
+.dark .skills h3 {
+  color: #aebccf;
+}
+
+.dark .profile h3,
+.dark .projects h3 {
+  color: #aebccf;
+}
+
+.dark .header-p,
+.dark .header-p p {
+  color: #b7aaff;
+}
+
+.dark .line {
+  color: #b7aaff;
+  border-top-color: #b7aaff;
+}
+
+.dark .skillsListGroup h4 {
+  color: #b7aaff;
+}
+
+.dark .profileBox h4,
+.dark .aboutMe h4 {
+  color: #b7aaff;
+}
+
+.dark .content-left,
+.dark .content-right {
+  color: #6b7280;
+}
+
+.dark .projects-list h4 {
+  color: #b7aaff;
+}
+.dark .details p {
+  color: #6b7280;
+}
+
+.dark .footer {
+  background: #141414;
+}
+
+.dark .footer-head {
+  color: #aebccf;
+}
+
+.dark .emailcss {
+  color: b7aaff;
+}
+
+.dark .content-2 {
+  color: #aebccf;
+}
+.mode-switch {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  max-width: 90%;
+  height: 3rem;
+  top: 1.5rem;
+
+  padding-top: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: right;
+}
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+
+  color: #777777;
+}
+#lang {
+  color: #4731d3;
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 24px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.toggle-switch-checkbox {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 3px;
+  bottom: 0;
+  background-color: #4731d3;
+  transition: 0.4s;
+  border-radius: 24px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: #ffe86e;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.toggle-switch-checkbox:checked + .slider {
+  background-color: #3a3a3a;
+}
+
+.toggle-switch-checkbox:checked + .slider:before {
+  transform: translateX(26px);
+}
+.footer {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer.dark {
+  background-color: #1f2937;
+}
+
+.footer-head {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #1f2937;
+  margin-bottom: 2rem;
+}
+
+.footer-head.dark {
+  color: #f4f5f7;
+}
+
+.rectangle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rectangle.dark {
+  color: #f4f5f7;
+}

@@ -1,0 +1,52 @@
+.header {
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  max-width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  /* or 133% */
+
+  color: #7b61ff;
+
+  width: 1.5rem;
+  height: 1.5rem;
+
+  transform: matrix(0.87, 0.49, -0.51, 0.86, 0, 0);
+
+  background-color: #eeebff;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.headerNav {
+  display: flex;
+  gap: 7rem;
+}
+.headerNav a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: #6b7280;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+}
+
+.headerNav a:hover {
+  border: 1px solid #3730a3;
+  border-radius: 6px;
+  background: #eeebff;
+}
