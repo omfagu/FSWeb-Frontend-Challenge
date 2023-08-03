@@ -20,11 +20,13 @@ export default function Head({ language }) {
               Minimalism lover
             </h2>{" "}
             <p>
-              Hi, I’m Ömer. I’m a full-stack developer. If you are looking for a{" "}
-              <br />
-              Developer who to craft solid and scalable frontend products with{" "}
-              <br />
-              great user experiences. Let’s shake hands with me.
+              Hello, I'm Ömer. I'm a full-stack developer with experience in
+              both <br /> front-end and back-end development. If you're looking
+              for a developer <br />
+              to create robust and scalable front-end and back-end products,
+              tailored <br />
+              for excellent user experiences, feel free to get in touch with me.
+              I'm looking <br /> forward to collaborating!
             </p>
           </div>
         ) : (
@@ -34,9 +36,13 @@ export default function Head({ language }) {
               Minimalizm Aşığı
             </h2>
             <p>
-              Merhaba, ben Ömer. Ben bir full-stack geliştiricisiyim. Eğer bir
-              Sağlam ve ölçeklenebilir ön uç ürünleri oluşturacak geliştirici
-              harika kullanıcı deneyimleri için, benimle iletişime geçin.
+              Merhaba, ben Ömer. Hem ön uç hem de arka uç geliştirme konusunda{" "}
+              <br />
+              deneyime sahip bir full-stack geliştiriciyim. Eğer sağlam ve
+              ölçeklenebilir <br /> ön uç ve arka uç ürünleri oluşturacak bir
+              geliştirici arıyorsanız, harika <br /> kullanıcı deneyimleri için
+              benimle iletişime geçebilirsiniz. Birlikte çalışmayı <br /> dört
+              gözle bekliyorum!
             </p>
           </div>
         )}
@@ -98,8 +104,8 @@ export default function Head({ language }) {
         )}
       </div>
 
-      <div className="image-container">
-        <img src="./image1.png" alt="icon" />
+      <div class="image-container">
+        <img src="./5555.jpeg" alt="icon" class="border-animation" />
       </div>
     </div>
   );

@@ -21,13 +21,13 @@ export default function Header({ language }) {
         </nav>
       ) : (
         <nav className="headerNav">
-          <Link to="skills" smooth={true} duration={1000}>
+          <Link to="skills" smooth={true} duration={600}>
             Yetenekler
           </Link>
-          <Link to="projects" smooth={true} duration={2000}>
+          <Link to="projects" smooth={true} duration={750}>
             Projeler
           </Link>
-          <Link to="footer" smooth={true} duration={2000}>
+          <Link to="footer" smooth={true} duration={1000}>
             İletişime geç
           </Link>
         </nav>

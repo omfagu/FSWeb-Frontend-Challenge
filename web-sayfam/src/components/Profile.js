@@ -4,12 +4,12 @@ import "./Profile.css";
 export default function Profile({ language }) {
   return (
     <div className="profile">
-      <span className="profileLine"></span>
+      <span className="profile-container"></span>
       <h3> {language === "en" ? "Profile" : "Profil"}</h3>
-      <div className="profileBox1">
-        <div className="profileBox">
+      <div className="profile-container-2">
+        <div className="profile-container-3">
           <h4>{language === "en" ? "Profile" : "Profil"}</h4>
-          <div className="dogumTarihi">
+          <div className="birth-date">
             <div className="content-left">
               <p>{language === "en" ? "Date of birth" : "Doğum tarihi"}</p>
               <p>{language === "en" ? "City of residence" : "İkamet şehrim"}</p>
@@ -44,7 +44,7 @@ export default function Profile({ language }) {
           </div>
         </div>
         {language === "en" ? (
-          <div className="aboutMe">
+          <div className="about">
             <h4>About Me</h4>
             <p>
               Atatürk University Management Information Systems Department in
@@ -58,7 +58,7 @@ export default function Profile({ language }) {
             </p>
           </div>
         ) : (
-          <div className="aboutMe">
+          <div className="about">
             <h4>Hakkımda</h4>
             <p>
               Atatürk Üniversitesi Yönetim Bilişim Sistemleri bölümünden 2021 de
@@ -74,6 +74,7 @@ export default function Profile({ language }) {
           </div>
         )}
       </div>
+      <span className="profile-container"></span>
     </div>
   );
 }

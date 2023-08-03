@@ -7,7 +7,7 @@
   flex-direction: column;
   gap: 3rem;
 }
-.profileLine {
+.profile-container {
   border: none;
   border-top: 1px solid #3730a3;
   margin: 1rem 0;
@@ -26,21 +26,21 @@
   color: #1f2937;
 }
 
-.profileBox1 {
+.profile-container-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 11rem;
 }
 
-.profileBox {
+.profile-container-3 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.profileBox h4,
-.aboutMe h4 {
+.profile-container-3 h4,
+.about h4 {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -51,7 +51,7 @@
   color: #4338ca;
 }
 
-.dogumTarihi {
+.birth-date {
   display: flex;
 }
 
@@ -98,13 +98,13 @@
   margin: 0;
 }
 
-.aboutMe {
+.about {
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.aboutMe p {
+.about p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;

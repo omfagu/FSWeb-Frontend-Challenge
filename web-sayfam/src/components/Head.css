@@ -115,5 +115,26 @@ a {
   background: #eeebff;
 }
 .image-container {
-  padding-left: 3.5rem;
+  display: inline-block;
+  overflow: hidden;
+  padding-left: 5rem;
+  padding-top: 5.5rem;
+}
+
+.border-animation {
+  max-width: 445px;
+  max-height: 600px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: border 0.5s ease-in-out;
+  animation: border-pulse 4s infinite; /* 4 saniye boyunca sürekli animasyon */
+}
+
+@keyframes border-pulse {
+  0% {
+    border-color: #3498db;
+  }
+  100% {
+    border-color: #e74c3c;
+  }
 }
