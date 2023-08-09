@@ -33,7 +33,6 @@ export default function Head({ language }) {
           <div className="content">
             <h2>
               Yaratıcı Düşünür <br />
-              Minimalizm Aşığı
             </h2>
             <p>
               Merhaba, ben Ömer. Hem ön uç hem de arka uç geliştirme konusunda{" "}
