@@ -72,7 +72,7 @@ export default function Head({ language }) {
                 <p>LinkedIn</p>
               </a>
             </div>
-          </div>
+          </div> //aaaaaaaaaaaaa
         ) : (
           <div className="buttons">
             <div className="button-1">
